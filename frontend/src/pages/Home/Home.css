@@ -1,0 +1,33 @@
+.mainCalc{
+    margin:0px;
+    padding:0px;
+    border-radius: 0px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+
+input[type='button']{
+    width: 100px;
+    background: #4582ec;
+    border: 1px solid #222;
+    padding: 10px 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+  
+input[type='button']:active{
+    background: #ccc;
+}
+  
+.screen-row input{
+  width: 400px;
+    background: #ddd;
+    border: 0px;
+    color: #222;
+    padding: 10px;
+    text-align: right;
+}

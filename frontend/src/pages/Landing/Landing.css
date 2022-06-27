@@ -1,0 +1,49 @@
+.main {
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../../backgroundLanding.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.text-judul {
+    font-size: 55px;
+}
+
+.judul-landing {
+    width: 100%;
+    text-align: center;
+}
+
+.button-landing {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.isi-button {
+    width: 200px;
+    height: 55px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .button-landing {
+        padding: 0 200px;
+    }
+
+    .text-judul {
+        padding: 0 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .text-judul {
+        font-size: 45px;
+    }
+
+    .isi-button {
+        width: 150px;
+        height: 50px;
+    }
+}
